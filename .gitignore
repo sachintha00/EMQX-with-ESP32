@@ -1,4 +1,4 @@
-# SSL Certificates - sensitive files
+# SSL Certificates only - ignore the cert file but keep the folder
 data/root.crt
 data/*.crt
 data/*.pem
