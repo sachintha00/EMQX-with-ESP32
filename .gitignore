@@ -1,0 +1,19 @@
+# SSL Certificates - sensitive files
+data/root.crt
+data/*.crt
+data/*.pem
+data/*.key
+
+# Arduino build files
+build/
+*.elf
+*.bin
+*.hex
+*.map
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
