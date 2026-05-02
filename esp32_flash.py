@@ -4,7 +4,7 @@ import subprocess
 from littlefs import LittleFS
 
 OFFSET   = 0x290000
-FS_SIZE  = 0x170000
+FS_SIZE  = 0x180000
 CRT_FILE = "root.crt"
 BIN_FILE = "data.bin"
 BAUD     = 921600
